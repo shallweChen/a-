@@ -1,0 +1,11 @@
+HTML:
+<a href="javascript:void(0);" onclick="aClick(this)">测试</a>
+
+JS:
+function aClick(obj){
+  console.log(obj);
+  location.href='www.baidu.com';
+}
+
+/*****************************************************************************************************/
+javascript表示伪协议，void(0)表示不执行动作，实际上就是不跳转的意思,然后给a像普通标签一样绑定事件监听函数即可
